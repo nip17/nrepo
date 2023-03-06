@@ -47,7 +47,7 @@ while (true) {
 
 	const npub_prefix = 'npub1'
 	if (output.pubkey.startsWith(vanity) && output.npub.slice(npub_prefix.length).startsWith(npubvanity)) {
-                var ret = { npub: output.npub, nrepo: output.nrepo }
+                var ret = { pubkey: output.pubkey, nrepo: output.nrepo }
 
 		console.log(JSON.stringify(ret, null, 2))
 

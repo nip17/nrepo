@@ -1,6 +1,6 @@
 {
   "name": "nrepo",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "nrepo tools",
   "main": "index.js",
   "scripts": {
