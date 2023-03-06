@@ -1,0 +1,23 @@
+{
+  "name": "nrepo",
+  "version": "0.0.1",
+  "description": "nrepo tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nip17/nrepo.git"
+  },
+  "keywords": [
+    "nostr",
+    "nrepo"
+  ],
+  "author": "Melvin Carvalho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nip17/nrepo/issues"
+  },
+  "homepage": "https://github.com/nip17/nrepo#readme"
+}
