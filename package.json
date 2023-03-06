@@ -1,10 +1,14 @@
 {
   "name": "nrepo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "nrepo tools",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "bin": {
+    "nrepo": "bin/nrepo.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/nip17/nrepo/issues"
   },
-  "homepage": "https://github.com/nip17/nrepo#readme"
+  "homepage": "https://github.com/nip17/nrepo#readme",
+  "dependencies": {
+    "noskey": "^0.0.29",
+    "nostr-tools": "^1.7.4"
+  }
 }
